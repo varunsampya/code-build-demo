@@ -15,8 +15,7 @@ export default class MyBanner extends Component {
       <marquee>
         <h1>{name}</h1>
         <address>
-          {address.street} <br />
-          {address.city}, {address.state} {address.zip}
+          {address.message}
         </address>
       </marquee>
     );

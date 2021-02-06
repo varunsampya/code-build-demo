@@ -7,10 +7,7 @@ class App extends Component {
   render() {
 
     const myAddress = {
-      street: 'Try',
-      city: 'IT',
-      state: 'By',
-      zip: 'Yourself'
+      message: 'Try It Yourself'
     };
 
     return (
