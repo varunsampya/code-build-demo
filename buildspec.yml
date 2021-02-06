@@ -19,4 +19,4 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - aws s3 sync out s3://cicd-codebuild-static-website/
+      - aws s3 sync out s3://sandip-demo-static-site-s3/
