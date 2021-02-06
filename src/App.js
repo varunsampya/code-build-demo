@@ -7,16 +7,16 @@ class App extends Component {
   render() {
 
     const myAddress = {
-      street: 'Somewhere',
-      city: 'SLC',
-      state: 'UT',
-      zip: '12334'
+      street: 'Try',
+      city: 'IT',
+      state: 'By',
+      zip: 'Yourself'
     };
 
     return (
       <div>
         <MyBanner
-          name="Tyler"
+          name="CodeBuild Demo"
           address={myAddress}
         />
       </div>
